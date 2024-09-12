@@ -13,9 +13,6 @@ score ={
 
 	translate:function(){
 		ctx.save()
-		ctx.translate(LARGURA/2, ALTURA/2)
-		ctx.fillStyle = this.color
-		ctx.fillText(this.value, -13, 19)
 		ctx.restore()
 	},
 
