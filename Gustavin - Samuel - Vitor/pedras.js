@@ -60,7 +60,7 @@ pedras = {
 	desenha:function(){
 		for( var i=0, tam=this._obs.length; i<tam; i++ )
 		{
-			if(score.value > 10) spritePedras = new Sprite(8, 25, 180, 107, "img/tubarao.png")
+			if(score.value > 10) spritePedras = new Sprite(8, 180, 180, 107, "img/tubarao.png")
 
 			//cada objeto do array recebe uma sprite (desenha da pedra)
 			spritePedras.desenha( this._obs[i].x, chao.y - this._obs[i].altura )

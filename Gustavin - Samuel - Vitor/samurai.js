@@ -29,7 +29,7 @@ const samurai = {
 
     // Atualiza o índice do sprite para animação
     animateSprite: function() {
-        if (this.trocaSprite == 4) {
+        if (this.trocaSprite == 0) {
             this.indexBoneco = (this.indexBoneco + 1) % runBoneco.length;
             this.trocaSprite = 5;
         } else {
